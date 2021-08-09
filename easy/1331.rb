@@ -29,7 +29,6 @@ def array_rank_transform(arr)
         end
         count += 1
     end
-    p arr3
     
     # arr = arr.map{|e| arr3[arr2.index(e)]}.to_a
 
