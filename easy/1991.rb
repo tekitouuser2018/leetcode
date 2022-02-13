@@ -12,9 +12,7 @@ def find_middle_index(nums)
         end
         if i > 0
             (0...i).each{ |j| 
-                if j < i
-                    leftSum += nums[j]
-                end
+                leftSum += nums[j]
             }
         end
         
